@@ -19,7 +19,7 @@
 
 - (void)is_drawRect:(NSRect)dirtyRect
 {
-	[[NSColor lightGrayColor] set];
+	[[NSColor colorWithWhite:0.95f alpha:1.0f] set];
 	
 	[self foreachRectBeingDrawn:^(CGRect rect) {
 		NSRectFill(rect);
