@@ -29,12 +29,12 @@ the script, simply run it in Terminal:
 	Xcode 6.3.2
 	UUID: E969541F-E6F9-4D25-8158-72DC3545A6C6
 
-	Added new UUID to plugin for version
+	Added new UUID to plugin for Xcode 6.3.2
 
 You may also specify a custom location for your Xcode installation or plugin
 bundle location:
 
-	Usage: update.sh [path_to_Xcode.app [path_to_IBCanvasColor.ideplugin]]
+	Usage: update.sh [path_to_xcode.app [path_to_plugin.ideplugin]]
 
 	Examples:
 	    ./update-uuid.sh

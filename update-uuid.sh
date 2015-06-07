@@ -9,7 +9,7 @@ realpath() {
 }
 
 print_usage() {
-	echoerr "Usage: update.sh [path_to_xcode.app [path_to_IBCanvasColor.ideplugin]]"
+	echoerr "Usage: update.sh [path_to_xcode.app [path_to_plugin.ideplugin]]"
 	echoerr -e "\nExamples:"
 	echoerr "    $0"
 	echoerr "    $0 /Applications/Xcode-6b4.app"
@@ -33,7 +33,7 @@ add_uuid() {
 		echo Plugin already contains UUID for version $version
 	else
 		defaults write "$PLUGIN_INFO" DVTPlugInCompatibilityUUIDs -array-add $NEW_UUID
-		echo Added new UUID to plugin for version $version
+		echo Added new UUID to plugin for Xcode $XCODE_VERSION
 	fi
 }
 
