@@ -15,59 +15,63 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "76312E4F19F26008006D29E5"
-               BuildableName = "IBCanvasColor.ideplugin"
-               BlueprintName = "IBCanvasColor"
-               ReferencedContainer = "container:IBCanvasColor.xcodeproj">
+               BuildableName = "XcodeCanvasColor.xcplugin"
+               BlueprintName = "XcodeCanvasColor"
+               ReferencedContainer = "container:XcodeCanvasColor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       viewDebuggingEnabled = "No">
       <PathRunnable
+         runnableDebuggingMode = "0"
          FilePath = "/Applications/Xcode.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "76312E4F19F26008006D29E5"
-            BuildableName = "IBCanvasColor.ideplugin"
-            BlueprintName = "IBCanvasColor"
-            ReferencedContainer = "container:IBCanvasColor.xcodeproj">
+            BuildableName = "XcodeCanvasColor.xcplugin"
+            BlueprintName = "XcodeCanvasColor"
+            ReferencedContainer = "container:XcodeCanvasColor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "76312E4F19F26008006D29E5"
-            BuildableName = "IBCanvasColor.ideplugin"
-            BlueprintName = "IBCanvasColor"
-            ReferencedContainer = "container:IBCanvasColor.xcodeproj">
+            BuildableName = "XcodeCanvasColor.xcplugin"
+            BlueprintName = "XcodeCanvasColor"
+            ReferencedContainer = "container:XcodeCanvasColor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

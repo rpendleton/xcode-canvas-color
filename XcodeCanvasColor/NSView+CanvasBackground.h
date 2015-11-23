@@ -1,6 +1,6 @@
 //
 //  NSView+CanvasBackground.h
-//  IBCanvasColor
+//  XcodeCanvasColor
 //
 //  Created by Ryan Pendleton on 10/18/14.
 //  Copyright (c) 2014 Inline-Studios. All rights reserved.

@@ -35,9 +35,11 @@
 		<string>7265231C-39B4-402C-89E1-16167C4CC990</string>
 		<string>9AFF134A-08DC-4096-8CEE-62A4BB123046</string>
 	</array>
-	<key>DVTPlugInHostRequirements</key>
-	<array>
-		<string>appkit</string>
-	</array>
+	<key>XC4Compatible</key>
+	<true/>
+	<key>XC5Compatible</key>
+	<true/>
+	<key>XCPluginHasUI</key>
+	<false/>
 </dict>
 </plist>

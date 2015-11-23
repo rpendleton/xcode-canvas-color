@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76312E5B19F26042006D29E5 /* IBCanvasColor.xcplugindata in Resources */ = {isa = PBXBuildFile; fileRef = 76312E5A19F26042006D29E5 /* IBCanvasColor.xcplugindata */; };
-		76312E5E19F260F1006D29E5 /* IBCanvasColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312E5D19F260F1006D29E5 /* IBCanvasColor.m */; };
+		76312E5E19F260F1006D29E5 /* XcodeCanvasColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312E5D19F260F1006D29E5 /* XcodeCanvasColor.m */; };
 		76312E6119F26264006D29E5 /* NSView+CanvasBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312E6019F26264006D29E5 /* NSView+CanvasBackground.m */; };
 		76312E6419F262C1006D29E5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312E6319F262C1006D29E5 /* JRSwizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		76312E5019F26008006D29E5 /* IBCanvasColor.ideplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBCanvasColor.ideplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		76312E5019F26008006D29E5 /* XcodeCanvasColor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCanvasColor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		76312E5419F26008006D29E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76312E5A19F26042006D29E5 /* IBCanvasColor.xcplugindata */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IBCanvasColor.xcplugindata; sourceTree = "<group>"; };
-		76312E5C19F260F1006D29E5 /* IBCanvasColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBCanvasColor.h; sourceTree = "<group>"; };
-		76312E5D19F260F1006D29E5 /* IBCanvasColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBCanvasColor.m; sourceTree = "<group>"; };
+		76312E5C19F260F1006D29E5 /* XcodeCanvasColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeCanvasColor.h; sourceTree = "<group>"; };
+		76312E5D19F260F1006D29E5 /* XcodeCanvasColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeCanvasColor.m; sourceTree = "<group>"; };
 		76312E5F19F26264006D29E5 /* NSView+CanvasBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+CanvasBackground.h"; sourceTree = "<group>"; };
 		76312E6019F26264006D29E5 /* NSView+CanvasBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+CanvasBackground.m"; sourceTree = "<group>"; };
 		76312E6219F262C1006D29E5 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
@@ -39,7 +37,7 @@
 		76312E4719F26008006D29E5 = {
 			isa = PBXGroup;
 			children = (
-				76312E5219F26008006D29E5 /* IBCanvasColor */,
+				76312E5219F26008006D29E5 /* XcodeCanvasColor */,
 				76312E5119F26008006D29E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,28 +45,27 @@
 		76312E5119F26008006D29E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76312E5019F26008006D29E5 /* IBCanvasColor.ideplugin */,
+				76312E5019F26008006D29E5 /* XcodeCanvasColor.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76312E5219F26008006D29E5 /* IBCanvasColor */ = {
+		76312E5219F26008006D29E5 /* XcodeCanvasColor */ = {
 			isa = PBXGroup;
 			children = (
 				76312E5319F26008006D29E5 /* Supporting Files */,
-				76312E5C19F260F1006D29E5 /* IBCanvasColor.h */,
-				76312E5D19F260F1006D29E5 /* IBCanvasColor.m */,
+				76312E5C19F260F1006D29E5 /* XcodeCanvasColor.h */,
+				76312E5D19F260F1006D29E5 /* XcodeCanvasColor.m */,
 				76312E5F19F26264006D29E5 /* NSView+CanvasBackground.h */,
 				76312E6019F26264006D29E5 /* NSView+CanvasBackground.m */,
 			);
-			path = IBCanvasColor;
+			path = XcodeCanvasColor;
 			sourceTree = "<group>";
 		};
 		76312E5319F26008006D29E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				76312E5419F26008006D29E5 /* Info.plist */,
-				76312E5A19F26042006D29E5 /* IBCanvasColor.xcplugindata */,
 				76312E6219F262C1006D29E5 /* JRSwizzle.h */,
 				76312E6319F262C1006D29E5 /* JRSwizzle.m */,
 			);
@@ -78,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76312E4F19F26008006D29E5 /* IBCanvasColor */ = {
+		76312E4F19F26008006D29E5 /* XcodeCanvasColor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76312E5719F26008006D29E5 /* Build configuration list for PBXNativeTarget "IBCanvasColor" */;
+			buildConfigurationList = 76312E5719F26008006D29E5 /* Build configuration list for PBXNativeTarget "XcodeCanvasColor" */;
 			buildPhases = (
 				76312E4C19F26008006D29E5 /* Sources */,
 				76312E4D19F26008006D29E5 /* Frameworks */,
@@ -90,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = IBCanvasColor;
-			productName = IBCanvasColor;
-			productReference = 76312E5019F26008006D29E5 /* IBCanvasColor.ideplugin */;
+			name = XcodeCanvasColor;
+			productName = XcodeCanvasColor;
+			productReference = 76312E5019F26008006D29E5 /* XcodeCanvasColor.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 76312E4B19F26008006D29E5 /* Build configuration list for PBXProject "IBCanvasColor" */;
+			buildConfigurationList = 76312E4B19F26008006D29E5 /* Build configuration list for PBXProject "XcodeCanvasColor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76312E4F19F26008006D29E5 /* IBCanvasColor */,
+				76312E4F19F26008006D29E5 /* XcodeCanvasColor */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76312E5B19F26042006D29E5 /* IBCanvasColor.xcplugindata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76312E5E19F260F1006D29E5 /* IBCanvasColor.m in Sources */,
+				76312E5E19F260F1006D29E5 /* XcodeCanvasColor.m in Sources */,
 				76312E6419F262C1006D29E5 /* JRSwizzle.m in Sources */,
 				76312E6119F26264006D29E5 /* NSView+CanvasBackground.m in Sources */,
 			);
@@ -231,11 +227,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
-				INFOPLIST_FILE = IBCanvasColor/Info.plist;
-				INSTALL_PATH = "$HOME/Library/Developer/Xcode/Plug-ins/";
+				INFOPLIST_FILE = XcodeCanvasColor/Info.plist;
+				INSTALL_PATH = "$HOME/Library/Application Support/Developer/Shared/Xcode/Plug-ins/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = ideplugin;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
@@ -245,18 +241,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
-				INFOPLIST_FILE = IBCanvasColor/Info.plist;
-				INSTALL_PATH = "$HOME/Library/Developer/Xcode/Plug-ins/";
+				INFOPLIST_FILE = XcodeCanvasColor/Info.plist;
+				INSTALL_PATH = "$HOME/Library/Application Support/Developer/Shared/Xcode/Plug-ins/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = ideplugin;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76312E4B19F26008006D29E5 /* Build configuration list for PBXProject "IBCanvasColor" */ = {
+		76312E4B19F26008006D29E5 /* Build configuration list for PBXProject "XcodeCanvasColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76312E5519F26008006D29E5 /* Debug */,
@@ -265,13 +261,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76312E5719F26008006D29E5 /* Build configuration list for PBXNativeTarget "IBCanvasColor" */ = {
+		76312E5719F26008006D29E5 /* Build configuration list for PBXNativeTarget "XcodeCanvasColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76312E5819F26008006D29E5 /* Debug */,
 				76312E5919F26008006D29E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
