@@ -13,7 +13,6 @@ print_usage() {
 	echoerr -e "\nExamples:"
 	echoerr "    $0"
 	echoerr "    $0 /Applications/Xcode-6b4.app"
-	echoerr "    $0 /Applications/Xcode.app ~/Library/Developer/Xcode/Plug-ins/MyIBCanvasColor.ideplugin"
 }
 
 add_uuid() {
@@ -39,7 +38,7 @@ add_uuid() {
 
 main() {
 	if [ $# -le 1 ]; then
-		PLUGIN=$(realpath ~/Library/Developer/Xcode/Plug-ins/IBCanvasColor.ideplugin)
+		PLUGIN=$(realpath ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XcodeCanvasColor.ideplugin)
 	else
 		PLUGIN=$(realpath $2)
 	fi

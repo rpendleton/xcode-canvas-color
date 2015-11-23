@@ -4,10 +4,11 @@ xcode-canvas-color
 A simple Xcode IDE Plugin that changes the background color of the storyboard
 editor.
 
-### Installation and Usage
+The color is currently hard coded to a light gray color. This can be changed in
+`NSView+CanvasBackground.m`.
 
-- The color is currently hard coded to a light gray color. This can be changed
-  in `NSView+CanvasBackground.m`.
+### Manual Installation
+
 - After changing the color (if desired), compile the Xcode project and the
   plugin will be installed automatically. After restarting Xcode, the storyboard
   editor should be using the new color for the background.
@@ -39,7 +40,6 @@ bundle location:
 	Examples:
 	    ./update-uuid.sh
 	    ./update-uuid.sh /Applications/Xcode-Beta.app
-	    ./update-uuid.sh /Applications/Xcode.app ~/Library/Developer/Xcode/Plug-ins/MyIBCanvasColor.ideplugin
 
 ### Screenshot
 
