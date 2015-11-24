@@ -1,4 +1,4 @@
-xcode-canvas-color
+XcodeCanvasColor
 ===============
 
 A simple Xcode IDE Plugin that changes the background color of the storyboard
@@ -7,15 +7,26 @@ editor.
 The color is currently hard coded to a light gray color. This can be changed in
 `NSView+CanvasBackground.m`.
 
-### Manual Installation
+## Installation
 
-- After changing the color (if desired), compile the Xcode project and the
-  plugin will be installed automatically. After restarting Xcode, the storyboard
-  editor should be using the new color for the background.
-- If the plugin doesn't seem to be loading, before filing issues, please read
-  the following section regarding compatibility UUID's.
+- Alcatraz Installation: This plugin is available for installation via
+  [Alcatraz][1], an open-source package manager for Xcode. Just search for
+  "XcodeCanvasColor", then click Install.
+  
+- Manual Installation: Alternatively, the plugin can be installed manually.
+  (This is currently the only way to choose the new background color.) Simply
+  compile the Xcode project and the plugin will be installed in the appropriate
+  location. After restarting Xcode, the storyboard editor should use the new
+  color for the background.
 
-### A Note Regarding Compatibility UUID's
+[1]: http://alcatraz.io/
+
+## Troubleshooting
+
+If the plugin doesn't seem to be loading, before filing issues, please read the
+following section regarding compatibility UUID's.
+
+### Compatibility UUID's
 
 Apple does not currently provide an official API for the development of Xcode
 plugins, and as such, this plugin may not be automatically loaded after Xcode is
@@ -41,6 +52,6 @@ bundle location:
 	    ./update-uuid.sh
 	    ./update-uuid.sh /Applications/Xcode-Beta.app
 
-### Screenshot
+## Screenshot
 
 ![screenshot](/../gh-pages/screenshot.png?raw=true)
