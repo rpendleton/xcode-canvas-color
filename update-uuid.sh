@@ -5,11 +5,11 @@ echoerr() {
 }
 
 realpath() {
-	perl -e 'use Cwd "abs_path";print abs_path(shift)' $1
+	perl -e 'use Cwd "abs_path";print abs_path(shift)' "$1"
 }
 
 print_usage() {
-	echoerr "Usage: update.sh [path_to_xcode.app [path_to_plugin.ideplugin]]"
+	echoerr "Usage: update.sh [path_to_xcode.app [path_to_plugin.xcplugin]]"
 	echoerr -e "\nExamples:"
 	echoerr "    $0"
 	echoerr "    $0 /Applications/Xcode-6b4.app"
@@ -38,7 +38,7 @@ add_uuid() {
 
 main() {
 	if [ $# -le 1 ]; then
-		PLUGIN=$(realpath ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XcodeCanvasColor.ideplugin)
+		PLUGIN=$(realpath ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XcodeCanvasColor.xcplugin)
 	else
 		PLUGIN=$(realpath $2)
 	fi
