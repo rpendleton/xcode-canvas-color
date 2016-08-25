@@ -7,6 +7,18 @@ editor.
 The color is currently hard coded to a light gray color. This can be changed in
 `NSView+CanvasBackground.m`.
 
+## Compatibility
+
+This plugin works with Xcode 6 and 7 (and potentially other versions as well).
+Unfortunately, Apple removed support for third-party extensions in Xcode 8.
+While it is possible to circumvent this by removing the code signature from
+Xcode, that simply isn't a solution I'm comfortable recommending to others.
+
+For more information and potential solutions regarding this change, see
+[alcatraz/Alcatraz#475][xcode8-issue].
+
+[xcode8-issue]: https://github.com/alcatraz/Alcatraz/issues/475
+
 ## Installation
 
 - Alcatraz Installation: This plugin is available for installation via
